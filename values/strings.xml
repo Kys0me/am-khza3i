@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="drawer">دَرَج</string>
+    <string name="prefix_title">مُدَوَّنة</string>
+    <string name="me_title">آدَمُ بْنُ مُوسَى الخُزاعي</string>
+    <string name="latest_articles">آخر المَقَالات:</string>
+    <string name="latest_books">آخر الكتب:</string>
+    <string name="edited">مُعَدَّل</string>
+    <string name="home">الرّئيسيّة</string>
+    <string name="articles">المَقَالات</string>
+    <string name="books">كُتُب</string>
+    <string name="search">البَحث</string>
+    <string name="more_options">مزيد من الخيارات</string>
+    <string name="copied">تمّ نسخ المقالة إلى الحافظة!.</string>
+    <string name="copy">نسخ المقالة إلى الحافظة!.</string>
+    <string name="search4article">البحث عن مقالة:</string>
+    <string name="close">إغلاق</string>
+    <string name="enter_search_word">أدخل جُملةَ البحث</string>
+    <string name="delete">حذف</string>
+    <string name="search_results">نتائج البحث: </string>
+    <string name="cancel_search">إلغاء البحث</string>
+    <string name="unexpected_error">حصل خطأ غير مُتَوقّع</string>
+    <string name="continue_reading">تابع القراءة...</string>
+    <string name="publish_date">نُشِرَ </string>
+    <string name="source">المَصدر: </string>
+
+</resources>
