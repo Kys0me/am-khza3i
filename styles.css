@@ -1,13 +1,38 @@
+/* Define the Rubik font */
+@font-face {
+    font-family: 'Rubik';
+    src: url('font/rubik_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the Rubik font to the body and other elements */
+body, p, h1, h2, h3, h4, h5, h6, div, span, canvas {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Loading screen styles */
 #loadingScreen {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: #2E2E30;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1000;
+}
+
+#loadingScreen img {
+    width: 64px;  /* Standard size for splash screen icons */
+    height: 64px; /* Standard size for splash screen icons */
+    margin-bottom: 20px; /* Space between icon and text */
+}
+
+#loadingScreen p {
+    color: white;
+    font-size: 18px; /* Adjust font size as needed */
 }
